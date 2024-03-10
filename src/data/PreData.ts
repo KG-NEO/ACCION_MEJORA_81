@@ -1,7 +1,7 @@
 
-import type { IQuiz } from "../interfaces/IQuiz";
+import type { IQuiz } from "@/interfaces/IQuiz"
 
-const QuizData = [
+const QuizData : IQuiz[] = [
     {
       id: 1,
       title: '¿Cuál es el propósito principal de los menús en un sitio web?',
